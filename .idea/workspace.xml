@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d17c211c-3877-4037-b560-8359b2500fc7" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test/Test2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>category</find>
+      <find>split</find>
+      <find>createInput</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/test/test01.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/test02.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/test02/test02.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/test02/test02producer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/test03/TService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/test03/TestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/test03/Start.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/test01/Test011.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/test01/Test.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/test/test02/Test02producer0202.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/test01/Test0103.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/test01/Test01.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/test01/Test0101.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/test01/Test0102.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/test02/Test02consumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/test02/Test02producer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/test02/Test0202producer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/test02/Test0202consumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/test03/map/1.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/test/test02/util/SourceVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/test02/util/ConnectMySql.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/test02/util/ConnectMySqlSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/test02/util/ConnectMySqlSink.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/test02/Test0201consumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/test02/Test0201producer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/Test2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/Test.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\tools\maven_resource" />
+        <option name="mavenHome" value="D:/tools/apache-maven-3.6.1-bin/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\tools\apache-maven-3.6.1-bin\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="flinkTest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-15" />
+    <option name="y" value="-15" />
+    <option name="width" value="984" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="flinkTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flinkTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flinkTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flinkTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flinkTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flinkTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flinkTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flinkTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flinkTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flinkTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.28718704" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.splitter.proportion" value="0.2984496" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test.test02.util" />
+      <recent name="test.test02" />
+      <recent name="test.test01" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JDproject\java_project\flinkTest\src\main\java\test\testAll\graph" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test" />
+      <module name="flinkTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test0103" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.test01.Test0103" />
+      <module name="flinkTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.test01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test0201consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.test02.Test0201consumer" />
+      <module name="flinkTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.test02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test0201producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.test02.Test0201producer" />
+      <module name="flinkTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.test02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test2" />
+      <module name="flinkTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test0103" />
+      <item itemvalue="Application.Test0201producer" />
+      <item itemvalue="Application.Test0201consumer" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.Test0201producer" />
+        <item itemvalue="Application.Test0201consumer" />
+        <item itemvalue="Application.Test0103" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d17c211c-3877-4037-b560-8359b2500fc7" name="Default Changelist" comment="" />
+      <created>1610089638874</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610089638874</updated>
+      <workItem from="1610089642197" duration="3034000" />
+      <workItem from="1610339234975" duration="11653000" />
+      <workItem from="1610353644139" duration="5999000" />
+      <workItem from="1611817944185" duration="1340000" />
+      <workItem from="1612252394788" duration="25662000" />
+      <workItem from="1612426579989" duration="967000" />
+      <workItem from="1612427562719" duration="14410000" />
+      <workItem from="1612753508390" duration="1642000" />
+      <workItem from="1615984342068" duration="3914000" />
+      <workItem from="1615988871866" duration="1231000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="69852000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23043306" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.13968255" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.29761904" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="MyBatis Log" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32857144" />
+      <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.15534367" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Key Promoter X" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20415778" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21018419" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.25027084" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="MyBatis Log" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32936078" />
+      <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.15565032" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Key Promoter X" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/test01/Test01.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/test02/Test02consumer.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/test01/Test0101.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/test01/Test0103.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/test01/Test0103.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/test01/Test0103.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/test02/Test02consumer.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/test02/Test02consumer.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/test02/Test0202consumer.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/test02/Test0201producer.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/test02/Test0201consumer.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/test02/Test0201consumer.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/test02/util/ConnectMySqlSink.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/test02/Test0201consumer.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/test02/Test0201consumer.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/Test.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/Test.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://D:/tools/maven_resource/org/apache/flink/flink-java/1.10.1/flink-java-1.10.1.jar!/org/apache/flink/api/java/utils/ParameterTool.class" />
+    <entry file="jar://D:/tools/maven_resource/org/apache/flink/flink-streaming-java_2.12/1.10.1/flink-streaming-java_2.12-1.10.1.jar!/org/apache/flink/streaming/api/environment/StreamExecutionEnvironment.class" />
+    <entry file="uml://MAVEN/flinkTest:flinkTest:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>flinkTest:flinkTest:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">flinkTest:flinkTest:1.0-SNAPSHOT</node>
+            <node x="" y="">org.apache.flink:flink-scala_2.12:jar:1.10.1</node>
+            <node x="" y="">org.apache.flink:flink-scala_2.12:jar:1.10.1/org.apache.flink:flink-core:jar:1.10.1</node>
+            <node x="" y="">org.apache.flink:flink-scala_2.12:jar:1.10.1/org.apache.flink:flink-core:jar:1.10.1/org.apache.flink:flink-annotations:jar:1.10.1</node>
+            <node x="" y="">org.apache.flink:flink-scala_2.12:jar:1.10.1/org.apache.flink:flink-core:jar:1.10.1/org.apache.flink:flink-metrics-core:jar:1.10.1</node>
+            <node x="" y="">org.apache.flink:flink-scala_2.12:jar:1.10.1/org.apache.flink:flink-core:jar:1.10.1/org.apache.commons:commons-lang3:jar:3.3.2</node>
+            <node x="" y="">org.apache.flink:flink-scala_2.12:jar:1.10.1/org.apache.flink:flink-core:jar:1.10.1/com.esotericsoftware.kryo:kryo:jar:2.24.0</node>
+            <node x="" y="">org.apache.flink:flink-scala_2.12:jar:1.10.1/org.apache.flink:flink-core:jar:1.10.1/com.esotericsoftware.kryo:kryo:jar:2.24.0/com.esotericsoftware.minlog:minlog:jar:1.2</node>
+            <node x="" y="">org.apache.flink:flink-scala_2.12:jar:1.10.1/org.apache.flink:flink-core:jar:1.10.1/com.esotericsoftware.kryo:kryo:jar:2.24.0/org.objenesis:objenesis:jar:2.1</node>
+            <node x="" y="">org.apache.flink:flink-scala_2.12:jar:1.10.1/org.apache.flink:flink-core:jar:1.10.1/commons-collections:commons-collections:jar:3.2.2</node>
+            <node x="" y="">org.apache.flink:flink-scala_2.12:jar:1.10.1/org.apache.flink:flink-core:jar:1.10.1/org.apache.commons:commons-compress:jar:1.18</node>
+            <node x="" y="">org.apache.flink:flink-scala_2.12:jar:1.10.1/org.apache.flink:flink-core:jar:1.10.1/org.apache.flink:flink-shaded-guava:jar:18.0-9.0</node>
+            <node x="" y="">org.apache.flink:flink-scala_2.12:jar:1.10.1/org.apache.flink:flink-java:jar:1.10.1</node>
+            <node x="" y="">org.apache.flink:flink-scala_2.12:jar:1.10.1/org.apache.flink:flink-java:jar:1.10.1/org.apache.commons:commons-math3:jar:3.5</node>
+            <node x="" y="">org.apache.flink:flink-scala_2.12:jar:1.10.1/org.apache.flink:flink-shaded-asm-7:jar:7.1-9.0</node>
+            <node x="" y="">org.apache.flink:flink-scala_2.12:jar:1.10.1/org.scala-lang:scala-reflect:jar:2.12.7</node>
+            <node x="" y="">org.apache.flink:flink-scala_2.12:jar:1.10.1/org.scala-lang:scala-library:jar:2.12.7</node>
+            <node x="" y="">org.apache.flink:flink-scala_2.12:jar:1.10.1/org.scala-lang:scala-compiler:jar:2.12.7</node>
+            <node x="" y="">org.apache.flink:flink-scala_2.12:jar:1.10.1/org.scala-lang:scala-compiler:jar:2.12.7/org.scala-lang.modules:scala-xml_2.12:jar:1.0.6</node>
+            <node x="" y="">org.apache.flink:flink-scala_2.12:jar:1.10.1/org.scala-lang:scala-compiler:jar:2.12.7/org.scala-lang.modules:scala-xml_2.12:jar:1.0.6/org.scala-lang:scala-library:jar:2.12.0</node>
+            <node x="" y="">org.apache.flink:flink-scala_2.12:jar:1.10.1/org.slf4j:slf4j-api:jar:1.7.15</node>
+            <node x="" y="">org.apache.flink:flink-scala_2.12:jar:1.10.1/com.google.code.findbugs:jsr305:jar:1.3.9</node>
+            <node x="" y="">org.apache.flink:flink-scala_2.12:jar:1.10.1/org.apache.flink:force-shading:jar:1.10.1</node>
+            <node x="" y="">org.apache.flink:flink-streaming-scala_2.12:jar:1.10.1</node>
+            <node x="" y="">org.apache.flink:flink-streaming-scala_2.12:jar:1.10.1/org.apache.flink:flink-streaming-java_2.12:jar:1.10.1</node>
+            <node x="" y="">org.apache.flink:flink-streaming-scala_2.12:jar:1.10.1/org.apache.flink:flink-streaming-java_2.12:jar:1.10.1/org.apache.flink:flink-runtime_2.12:jar:1.10.1</node>
+            <node x="" y="">org.apache.flink:flink-streaming-scala_2.12:jar:1.10.1/org.apache.flink:flink-streaming-java_2.12:jar:1.10.1/org.apache.flink:flink-runtime_2.12:jar:1.10.1/org.apache.flink:flink-queryable-state-client-java:jar:1.10.1</node>
+            <node x="" y="">org.apache.flink:flink-streaming-scala_2.12:jar:1.10.1/org.apache.flink:flink-streaming-java_2.12:jar:1.10.1/org.apache.flink:flink-runtime_2.12:jar:1.10.1/org.apache.flink:flink-hadoop-fs:jar:1.10.1</node>
+            <node x="" y="">org.apache.flink:flink-streaming-scala_2.12:jar:1.10.1/org.apache.flink:flink-streaming-java_2.12:jar:1.10.1/org.apache.flink:flink-runtime_2.12:jar:1.10.1/commons-io:commons-io:jar:2.4</node>
+            <node x="" y="">org.apache.flink:flink-streaming-scala_2.12:jar:1.10.1/org.apache.flink:flink-streaming-java_2.12:jar:1.10.1/org.apache.flink:flink-runtime_2.12:jar:1.10.1/org.apache.flink:flink-shaded-netty:jar:4.1.39.Final-9.0</node>
+            <node x="" y="">org.apache.flink:flink-streaming-scala_2.12:jar:1.10.1/org.apache.flink:flink-streaming-java_2.12:jar:1.10.1/org.apache.flink:flink-runtime_2.12:jar:1.10.1/org.apache.flink:flink-shaded-jackson:jar:2.10.1-9.0</node>
+            <node x="" y="">org.apache.flink:flink-streaming-scala_2.12:jar:1.10.1/org.apache.flink:flink-streaming-java_2.12:jar:1.10.1/org.apache.flink:flink-runtime_2.12:jar:1.10.1/commons-cli:commons-cli:jar:1.3.1</node>
+            <node x="" y="">org.apache.flink:flink-streaming-scala_2.12:jar:1.10.1/org.apache.flink:flink-streaming-java_2.12:jar:1.10.1/org.apache.flink:flink-runtime_2.12:jar:1.10.1/org.javassist:javassist:jar:3.24.0-GA</node>
+            <node x="" y="">org.apache.flink:flink-streaming-scala_2.12:jar:1.10.1/org.apache.flink:flink-streaming-java_2.12:jar:1.10.1/org.apache.flink:flink-runtime_2.12:jar:1.10.1/com.typesafe.akka:akka-actor_2.12:jar:2.5.21</node>
+            <node x="" y="">org.apache.flink:flink-streaming-scala_2.12:jar:1.10.1/org.apache.flink:flink-streaming-java_2.12:jar:1.10.1/org.apache.flink:flink-runtime_2.12:jar:1.10.1/com.typesafe.akka:akka-actor_2.12:jar:2.5.21/com.typesafe:config:jar:1.3.3</node>
+            <node x="" y="">org.apache.flink:flink-streaming-scala_2.12:jar:1.10.1/org.apache.flink:flink-streaming-java_2.12:jar:1.10.1/org.apache.flink:flink-runtime_2.12:jar:1.10.1/com.typesafe.akka:akka-actor_2.12:jar:2.5.21/org.scala-lang.modules:scala-java8-compat_2.12:jar:0.8.0</node>
+            <node x="" y="">org.apache.flink:flink-streaming-scala_2.12:jar:1.10.1/org.apache.flink:flink-streaming-java_2.12:jar:1.10.1/org.apache.flink:flink-runtime_2.12:jar:1.10.1/com.typesafe.akka:akka-stream_2.12:jar:2.5.21</node>
+            <node x="" y="">org.apache.flink:flink-streaming-scala_2.12:jar:1.10.1/org.apache.flink:flink-streaming-java_2.12:jar:1.10.1/org.apache.flink:flink-runtime_2.12:jar:1.10.1/com.typesafe.akka:akka-stream_2.12:jar:2.5.21/org.reactivestreams:reactive-streams:jar:1.0.2</node>
+            <node x="" y="">org.apache.flink:flink-streaming-scala_2.12:jar:1.10.1/org.apache.flink:flink-streaming-java_2.12:jar:1.10.1/org.apache.flink:flink-runtime_2.12:jar:1.10.1/com.typesafe.akka:akka-stream_2.12:jar:2.5.21/com.typesafe:ssl-config-core_2.12:jar:0.3.7</node>
+            <node x="" y="">org.apache.flink:flink-streaming-scala_2.12:jar:1.10.1/org.apache.flink:flink-streaming-java_2.12:jar:1.10.1/org.apache.flink:flink-runtime_2.12:jar:1.10.1/com.typesafe.akka:akka-stream_2.12:jar:2.5.21/com.typesafe:ssl-config-core_2.12:jar:0.3.7/org.scala-lang.modules:scala-parser-combinators_2.12:jar:1.1.1</node>
+            <node x="" y="">org.apache.flink:flink-streaming-scala_2.12:jar:1.10.1/org.apache.flink:flink-streaming-java_2.12:jar:1.10.1/org.apache.flink:flink-runtime_2.12:jar:1.10.1/com.typesafe.akka:akka-protobuf_2.12:jar:2.5.21</node>
+            <node x="" y="">org.apache.flink:flink-streaming-scala_2.12:jar:1.10.1/org.apache.flink:flink-streaming-java_2.12:jar:1.10.1/org.apache.flink:flink-runtime_2.12:jar:1.10.1/com.typesafe.akka:akka-slf4j_2.12:jar:2.5.21</node>
+            <node x="" y="">org.apache.flink:flink-streaming-scala_2.12:jar:1.10.1/org.apache.flink:flink-streaming-java_2.12:jar:1.10.1/org.apache.flink:flink-runtime_2.12:jar:1.10.1/com.typesafe.akka:akka-slf4j_2.12:jar:2.5.21/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="" y="">org.apache.flink:flink-streaming-scala_2.12:jar:1.10.1/org.apache.flink:flink-streaming-java_2.12:jar:1.10.1/org.apache.flink:flink-runtime_2.12:jar:1.10.1/org.clapper:grizzled-slf4j_2.12:jar:1.3.2</node>
+            <node x="" y="">org.apache.flink:flink-streaming-scala_2.12:jar:1.10.1/org.apache.flink:flink-streaming-java_2.12:jar:1.10.1/org.apache.flink:flink-runtime_2.12:jar:1.10.1/org.clapper:grizzled-slf4j_2.12:jar:1.3.2/org.slf4j:slf4j-api:jar:1.7.9</node>
+            <node x="" y="">org.apache.flink:flink-streaming-scala_2.12:jar:1.10.1/org.apache.flink:flink-streaming-java_2.12:jar:1.10.1/org.apache.flink:flink-runtime_2.12:jar:1.10.1/com.github.scopt:scopt_2.12:jar:3.5.0</node>
+            <node x="" y="">org.apache.flink:flink-streaming-scala_2.12:jar:1.10.1/org.apache.flink:flink-streaming-java_2.12:jar:1.10.1/org.apache.flink:flink-runtime_2.12:jar:1.10.1/org.xerial.snappy:snappy-java:jar:1.1.4</node>
+            <node x="" y="">org.apache.flink:flink-streaming-scala_2.12:jar:1.10.1/org.apache.flink:flink-streaming-java_2.12:jar:1.10.1/org.apache.flink:flink-runtime_2.12:jar:1.10.1/com.twitter:chill_2.12:jar:0.7.6</node>
+            <node x="" y="">org.apache.flink:flink-streaming-scala_2.12:jar:1.10.1/org.apache.flink:flink-streaming-java_2.12:jar:1.10.1/org.apache.flink:flink-runtime_2.12:jar:1.10.1/com.twitter:chill_2.12:jar:0.7.6/com.twitter:chill-java:jar:0.7.6</node>
+            <node x="" y="">org.apache.flink:flink-streaming-scala_2.12:jar:1.10.1/org.apache.flink:flink-streaming-java_2.12:jar:1.10.1/org.apache.flink:flink-runtime_2.12:jar:1.10.1/org.lz4:lz4-java:jar:1.5.0</node>
+            <node x="" y="">org.apache.flink:flink-streaming-scala_2.12:jar:1.10.1/org.apache.flink:flink-streaming-java_2.12:jar:1.10.1/org.apache.flink:flink-clients_2.12:jar:1.10.1</node>
+            <node x="" y="">org.apache.flink:flink-streaming-scala_2.12:jar:1.10.1/org.apache.flink:flink-streaming-java_2.12:jar:1.10.1/org.apache.flink:flink-clients_2.12:jar:1.10.1/org.apache.flink:flink-optimizer_2.12:jar:1.10.1</node>
+            <node x="" y="">org.apache.flink:flink-connector-kafka-0.11_2.12:jar:1.10.1</node>
+            <node x="" y="">org.apache.flink:flink-connector-kafka-0.11_2.12:jar:1.10.1/org.apache.flink:flink-connector-kafka-0.10_2.12:jar:1.10.1</node>
+            <node x="" y="">org.apache.flink:flink-connector-kafka-0.11_2.12:jar:1.10.1/org.apache.flink:flink-connector-kafka-0.10_2.12:jar:1.10.1/org.apache.flink:flink-connector-kafka-0.9_2.12:jar:1.10.1</node>
+            <node x="" y="">org.apache.flink:flink-connector-kafka-0.11_2.12:jar:1.10.1/org.apache.flink:flink-connector-kafka-0.10_2.12:jar:1.10.1/org.apache.flink:flink-connector-kafka-0.9_2.12:jar:1.10.1/org.apache.flink:flink-connector-kafka-base_2.12:jar:1.10.1</node>
+            <node x="" y="">org.apache.flink:flink-connector-kafka-0.11_2.12:jar:1.10.1/org.apache.kafka:kafka-clients:jar:0.11.0.2</node>
+            <node x="" y="">org.apache.flink:flink-connector-kafka-0.11_2.12:jar:1.10.1/org.apache.kafka:kafka-clients:jar:0.11.0.2/net.jpountz.lz4:lz4:jar:1.3.0</node>
+            <node x="" y="">org.apache.flink:flink-connector-kafka-0.11_2.12:jar:1.10.1/org.apache.kafka:kafka-clients:jar:0.11.0.2/org.xerial.snappy:snappy-java:jar:1.1.2.6</node>
+            <node x="" y="">org.apache.flink:flink-connector-kafka-0.11_2.12:jar:1.10.1/org.apache.kafka:kafka-clients:jar:0.11.0.2/org.slf4j:slf4j-api:jar:1.7.15</node>
+            <node x="" y="">org.apache.bahir:flink-connector-redis_2.11:jar:1.0</node>
+            <node x="" y="">org.apache.bahir:flink-connector-redis_2.11:jar:1.0/redis.clients:jedis:jar:2.8.0</node>
+            <node x="" y="">org.apache.bahir:flink-connector-redis_2.11:jar:1.0/redis.clients:jedis:jar:2.8.0/org.apache.commons:commons-pool2:jar:2.3</node>
+            <node x="" y="">org.springframework:spring-web:jar:5.2.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-web:jar:5.2.2.RELEASE/org.springframework:spring-beans:jar:5.2.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-web:jar:5.2.2.RELEASE/org.springframework:spring-core:jar:5.2.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-web:jar:5.2.2.RELEASE/org.springframework:spring-core:jar:5.2.2.RELEASE/org.springframework:spring-jcl:jar:5.2.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:5.2.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:5.2.2.RELEASE/org.springframework:spring-aop:jar:5.2.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:5.2.2.RELEASE/org.springframework:spring-context:jar:5.2.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:5.2.2.RELEASE/org.springframework:spring-expression:jar:5.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:5.2.2.RELEASE</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.2837326607818411" x="722.0" y="783.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/test03/TService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/test03/Start.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/test03/TestController.java" />
+    <entry file="jar://D:/tools/maven_resource/com/alibaba/fastjson/1.2.70/fastjson-1.2.70-sources.jar!/com/alibaba/fastjson/JSONObject.java" />
+    <entry file="jar://C:/Program Files/Java/jdk8_lsb64Bit_itmop.com/tools/src.zip!/java/lang/String.java" />
+    <entry file="jar://D:/tools/maven_resource/org/apache/flink/flink-runtime_2.12/1.10.1/flink-runtime_2.12-1.10.1.jar!/org/apache/flink/runtime/operators/chaining/ChainedFlatMapDriver.class" />
+    <entry file="jar://D:/tools/maven_resource/org/apache/flink/flink-runtime_2.12/1.10.1/flink-runtime_2.12-1.10.1.jar!/org/apache/flink/runtime/operators/chaining/ChainedReduceCombineDriver.class" />
+    <entry file="jar://D:/tools/maven_resource/org/apache/flink/flink-runtime_2.12/1.10.1/flink-runtime_2.12-1.10.1.jar!/org/apache/flink/runtime/operators/chaining/ChainedAllReduceDriver.class" />
+    <entry file="jar://D:/tools/maven_resource/org/apache/flink/flink-runtime_2.12/1.10.1/flink-runtime_2.12-1.10.1.jar!/org/apache/flink/runtime/operators/ReduceDriver.class" />
+    <entry file="jar://D:/tools/maven_resource/org/apache/flink/flink-core/1.10.1/flink-core-1.10.1.jar!/org/apache/flink/api/java/tuple/Tuple2.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/test01/Test.java" />
+    <entry file="jar://D:/tools/maven_resource/org/apache/flink/flink-java/1.10.1/flink-java-1.10.1.jar!/org/apache/flink/api/java/ExecutionEnvironment.class" />
+    <entry file="jar://D:/tools/maven_resource/org/apache/flink/flink-java/1.10.1/flink-java-1.10.1.jar!/org/apache/flink/api/java/DataSet.class" />
+    <entry file="jar://D:/tools/maven_resource/org/apache/flink/flink-runtime_2.12/1.10.1/flink-runtime_2.12-1.10.1.jar!/org/apache/flink/runtime/operators/DataSourceTask.class" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/tools/maven_resource/org/apache/flink/flink-runtime_2.12/1.10.1/flink-runtime_2.12-1.10.1.jar!/org/apache/flink/runtime/operators/chaining/ChainedMapDriver.class" />
+    <entry file="jar://D:/tools/maven_resource/org/apache/flink/flink-runtime_2.12/1.10.1/flink-runtime_2.12-1.10.1.jar!/org/apache/flink/runtime/operators/util/metrics/CountingCollector.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/test03/1.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/test04/A.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/test05/1" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/test02/Test02producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/testAll/1">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://D:/tools/maven_resource/org/apache/flink/flink-streaming-java_2.12/1.10.1/flink-streaming-java_2.12-1.10.1.jar!/org/apache/flink/streaming/api/functions/source/RichSourceFunction.class" />
+    <entry file="jar://D:/tools/maven_resource/org/apache/flink/flink-core/1.10.1/flink-core-1.10.1.jar!/org/apache/flink/api/common/functions/AbstractRichFunction.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/test02/util/SourceVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/test01/Test0102.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-468">
+          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/test01/Test0101.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/test01/Test01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-104">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/test02/util/ConnectMySqlSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="34" column="82" selection-start-line="34" selection-start-column="82" selection-end-line="34" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/tools/maven_resource/org/apache/flink/flink-streaming-java_2.12/1.10.1/flink-streaming-java_2.12-1.10.1.jar!/org/apache/flink/streaming/api/operators/StreamMap.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/test02/util/ConnectMySqlSink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1820">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/test01/Test0103.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/test02/Test0202producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/test02/Test0202consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="48" column="130" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/test02/Test0201producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/test02/Test0201consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/test02/Test02consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="48" column="32" lean-forward="true" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <folding>
+            <element signature="e#97#98#0" expanded="true" />
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28718704" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28718704" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28718704" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28718704" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>flinkTest</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28718704" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:fastjson:1.2.70</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28718704" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="package install" />
+    <option value="package clean" />
+    <option value="clean test -Dtestinfo=&quot;ccc&quot;" />
+    <option value="maven install" />
+    <option value="clean" />
+    <option value="$ mvn archetype:generate \     -DarchetypeGroupId=org.apache.flink \     -DarchetypeArtifactId=flink-quickstart-java \     -DarchetypeVersion=1.9.0 \     -DgroupId=com.phlicode \     -DartifactId=flink-tutorial \     -Dversion=0.1 \     -Dpackage=com.phlicode.wikiedits \     -DinteractiveMode=false" />
+  </component>
+</project>
