@@ -1,4 +1,4 @@
-package test;
+package test.common;
 
 public class Node {
     int key;

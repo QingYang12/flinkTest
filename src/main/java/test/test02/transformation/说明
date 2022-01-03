@@ -1,0 +1,25 @@
+离线练习：DataSet
+    Test01        //map
+                  //reduce
+                  //keyby
+
+    Test02        //flatMap
+
+    Test03        //filter
+
+    Test04        //shuffle
+
+    Test05        //split
+                  //select
+
+    Test06        //connect
+
+    Test07        //union
+
+
+    Test08        //processFunction
+
+    Test09        //旁路输出   分流 https://blog.csdn.net/Vector97/article/details/109787658?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~aggregatepage~first_rank_ecpm_v1~rank_v31_ecpm-1-109787658.pc_agg_new_rank&utm_term=flink%E7%AE%97%E5%AD%90process&spm=1000.2123.3001.4430
+
+
+

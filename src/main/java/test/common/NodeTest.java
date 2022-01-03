@@ -1,12 +1,12 @@
-package test;
+package test.common;
 
 import com.alibaba.fastjson.JSONArray;
-import com.alibaba.fastjson.JSONObject;
+import test.common.Node;
 
 import java.util.ArrayList;
 import java.util.List;
-
-public class Test {
+//二叉树遍历
+public class NodeTest {
     public static void main(String[] args) {
         //tree key初始化
         Node node1=new Node();
