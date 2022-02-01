@@ -1,1 +1,32 @@
 实时练习：table
+
+        test01  //table datastream  dataset 互转
+        test02  //table connector
+        test03  //查动态表
+        test04  //timstamp watermark时间定义
+        test05  //join
+        test06  //集成Hive
+
+队列查维表到表 mqtodb
+查维表  joinstream
+双流join到表 joindimensiontable
+flink sql教程
+https://www.jianshu.com/p/0d882352ff18
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

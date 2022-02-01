@@ -15,7 +15,7 @@ import java.util.Set;
 /**读取文件做统计品类个数   file品类个数统计
  * @ClassName test0101
  * @Description TODO  File count word2
- * @Author wanghao628  统计品类个数  批量
+ * @Author wanghao  统计品类个数  批量
  * @Date 2021/1/8 16:14
  * @Version 1.0
  */

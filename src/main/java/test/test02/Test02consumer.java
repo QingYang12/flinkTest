@@ -23,7 +23,7 @@ import java.util.Properties;
  * @ClassName test02
  * @Description TODO  kafka count word
  * topic:   test1
- * @Author wanghao628
+ * @Author wanghao
  * @Date 2021/1/11 13:35
  * @Version 1.0
  */

@@ -14,7 +14,7 @@ import org.apache.flink.util.Collector;
 /**读取文件做统计单词个数
  * @ClassName test0101
  * @Description TODO File count word3
- * @Author wanghao628   空格分隔算单词  统计所有单词出现的数量  批量
+ * @Author wanghao   空格分隔算单词  统计所有单词出现的数量  批量
  * 1.符号替换成空格
  * 2.去除key为null 或者""空字符串的数据
  * 3.统计单词个数

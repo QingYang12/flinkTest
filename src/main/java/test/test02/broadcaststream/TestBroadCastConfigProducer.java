@@ -1,29 +1,47 @@
-package test.test02;
+package test.test02.broadcaststream;
 
+
+import com.alibaba.fastjson.JSONObject;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 
 import java.util.Properties;
 import java.util.Random;
+import java.util.Timer;
+import java.util.TimerTask;
 
-/**造1-10的数据  1000个
- * @ClassName test02producer
- * @Description TODO  producer word
+/**  BroadCastStream练习  使用广播实现配置动态更新
+ * @ClassName test0201
+ * @Description
  * @Author wanghao
- * @Date 2021/1/11 13:39
+ * @Date 2021/1/11 13:35
  * @Version 1.0
  */
-public class Test02producer {
+public class TestBroadCastConfigProducer {
+    static int index=0;
     public static void main(String[] args) {
-        for(int i=0;i<=1000;i++){
-            Random random=new Random();
-           int intitem= random.nextInt(1000);
-            String numstr=String.valueOf(intitem%10);
-            Test02producer test02producer= new Test02producer();
-            test02producer.send(numstr);
-            System.out.println("已发送数据:"+numstr);
 
-        }
+        Timer t = new Timer();//创建1个定时器
+        t.schedule(new TimerTask() {
+
+            @Override
+            public void run() {
+                TestBroadCastConfigProducer testBroadCastProducer = new TestBroadCastConfigProducer();
+                JSONObject map=new JSONObject();
+                map.put("select","name,occupation");
+                map.put("where","old>50 and sex=1");
+                Random ran=new Random();
+                map.put("test",String.valueOf(ran.nextInt(2)));
+                String json =map.toJSONString();
+                testBroadCastProducer.send(json);
+                System.out.println("已发送 配置数据 :"+json);
+                if(index>=1000){//终止条件
+                    t.cancel();
+                }
+
+            }
+        }, 0, 1000);//// 首次运行,延迟0毫秒,循环间隔1000毫秒
+
     }
 
     /**发送方法
@@ -38,14 +56,15 @@ public class Test02producer {
         //props.put("batch.size", 16384);//producer将试图批处理消息记录，以减少请求次数.默认的批量处理消息字节数
         //batch.size当批量的数据大小达到设定值后，就会立即发送，不顾下面的linger.ms
         props.put("linger.ms", 1);//延迟1ms发送，这项设置将通过增加小的延迟来完成--即，不是立即发送一条记录，producer将会等待给定的延迟时间以允许其他消息记录发送，这些消息记录可以批量处理
-       // props.put("buffer.memory", 33554432);//producer可以用来缓存数据的内存大小。
+        // props.put("buffer.memory", 33554432);//producer可以用来缓存数据的内存大小。
         props.put("key.serializer",
                 "org.apache.kafka.common.serialization.IntegerSerializer");
         props.put("value.serializer",
                 "org.apache.kafka.common.serialization.StringSerializer");
         final KafkaProducer<String, String> producer;
-        final  String TOPIC = "test1";
+        final  String TOPIC = "config_bc_topic";
         producer = new KafkaProducer<String, String>(props);
         producer.send(new ProducerRecord<String, String>(TOPIC,value));
     }
 }
+

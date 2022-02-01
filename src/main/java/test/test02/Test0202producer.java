@@ -9,7 +9,7 @@ import java.util.Random;
 /**造 随机单词的数据  1000个 到test_word1
  * @ClassName test02producer
  * @Description TODO kafka 到 kafka producer
- * @Author wanghao628
+ * @Author wanghao
  * @Date 2021/1/11 13:39
  * @Version 1.0
  */

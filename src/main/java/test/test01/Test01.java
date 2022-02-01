@@ -11,7 +11,7 @@ import org.apache.flink.util.Collector;
 /**读取文件做   File统计个数
  * @ClassName test01
  * @Description TODO   File count word
- * @Author wanghao628
+ * @Author wanghao
  * @Date 2021/1/8 16:14
  * @Version 1.0
  */

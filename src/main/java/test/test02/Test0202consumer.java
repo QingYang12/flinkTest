@@ -19,7 +19,7 @@ import java.util.Properties;
 /**落库 从topic到topic  test_word1 到 test_word2
  * @ClassName test0202
  * @Description TODO kafka 到 kafka
- * @Author wanghao628
+ * @Author wanghao
  * @Date 2021/1/11 13:35
  * @Version 1.0
  */

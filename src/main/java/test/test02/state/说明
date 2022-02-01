@@ -8,4 +8,7 @@
                   //BroadcastState
 
                   //checkpoint
+                  //Queryable State
 
+keyedState operatorState
+    https://blog.csdn.net/huzechen/article/details/100141214

@@ -14,7 +14,7 @@ import java.sql.ResultSet;
 /**
  * @ClassName ConnectMySql
  * @Description TODO
- * @Author wanghao628
+ * @Author wanghao
  * @Date 2021/2/4 19:47
  * @Version 1.0
  */
@@ -27,6 +27,12 @@ public class ConnectMySqlSource extends RichSourceFunction<SourceVo> {
     public void open(Configuration parameters) throws Exception {
 
         super.open(parameters);
+
+       // Class.forName("com.mysql.cj.jdbc.Driver");//加载数据库驱动
+
+       // connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf-8&useSSL=false", "root", "12345678");//获取连接
+
+
 
         Class.forName("com.mysql.jdbc.Driver");//加载数据库驱动
 

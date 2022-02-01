@@ -17,10 +17,10 @@ import test.test02.util.SourceVo;
 
 import java.util.Properties;
 
-/**从数据库读取字段发送到topic  数据库 到 topic
+/**从数据库读取字段发送到topic  数据库 dbtest01 到 topic:db_kafka_topic
  * @ClassName test0201
  * @Description TODO db 到 kafka
- * @Author wanghao628
+ * @Author wanghao
  * @Date 2021/1/11 13:35
  * @Version 1.0
  */

@@ -15,7 +15,7 @@ import java.sql.PreparedStatement;
 /**
  * @ClassName ConnectMySql
  * @Description TODO
- * @Author wanghao628
+ * @Author wanghao
  * @Date 2021/2/4 19:47
  * @Version 1.0
  */
@@ -29,6 +29,13 @@ public class ConnectMySqlSink extends RichSinkFunction<JSONObject> {
         super.open(parameters);
 
         // 加载JDBC驱动
+        // 加载JDBC驱动
+
+       // Class.forName("com.mysql.cj.jdbc.Driver");
+
+        // 获取数据库连接
+
+      //  connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf-8&useSSL=false", "root", "12345678");//获取连接
 
         Class.forName("com.mysql.jdbc.Driver");
 

@@ -17,10 +17,10 @@ import test.test02.util.ConnectMySqlSource;
 
 import java.util.Properties;
 
-/**从消息队列读取字段落进数据库  topic 到 数据库
+/**从消息队列读取字段落进数据库  topic: db_kafka_topic 到 数据库 dbtest02
  * @ClassName test0201
  * @Description TODO kafka 到 db
- * @Author wanghao628
+ * @Author wanghao
  * @Date 2021/1/11 13:35
  * @Version 1.0
  */

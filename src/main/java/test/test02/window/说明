@@ -1,7 +1,5 @@
-实时练习：Datastream
-    Test02consumer        //
-    Test02producer        //
-    Test0201consumer      //
-    Test0201producer      //
-    Test0202consumer      //
-    Test0202producer      //
+实时练习：window
+    Test02consumer        //滚动窗口
+    Test02producer        //滑动窗口
+    Test0201consumer      //会话窗口 Session Windows
+    Test0201producer      //全局窗口 Global Windows

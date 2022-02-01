@@ -20,7 +20,7 @@ import org.apache.flink.util.Collector;
 /**数据迁移 表到表   db 到 db
  * @ClassName test0103
  * @Description TODO 数据迁移   db 到 db
- * @Author wanghao628   数据迁移 从test01表到test02表  批量
+ * @Author wanghao   数据迁移 从test01表到test02表  批量
  * test01表  id   name  old
  * test02表 id  name_old
  * @Date 2021/1/8 16:14
