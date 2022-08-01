@@ -23,6 +23,7 @@ import test.test02.broadcaststream.util.DealRuleAnalysis;
 import java.util.Properties;
 
 /**BroadCastStream练习  使用广播实现配置动态更新
+ * 接收 发送的配置，  接收 发送的数据
  * @ClassName test0201
  * @Description
  * @Author wanghao
@@ -56,7 +57,7 @@ public class TestBroadCastConsumer {
             BroadcastStream<String> broadcastStream=configStream.broadcast(CONFIG_DESCRIPTOR);
             DataStream<String> connectedStream =message.connect(broadcastStream).process(new BroadcastProcessFunction<String, String, String>() {
 
-
+                //数据处理流
                 @Override
                 public void processElement(String order, ReadOnlyContext ctx, Collector<String> collector) throws Exception {
                     HeapBroadcastState<String,String> config = (HeapBroadcastState)ctx.getBroadcastState(CONFIG_DESCRIPTOR);
@@ -66,7 +67,7 @@ public class TestBroadCastConsumer {
                     System.out.println("根据配置处理包装数据:" + res);
                     collector.collect(res);
                 }
-
+                //广播流
                 @Override
                 public void processBroadcastElement(String s, Context ctx, Collector<String> collector) throws Exception {
                     LOG.info("收到广播:" + s);

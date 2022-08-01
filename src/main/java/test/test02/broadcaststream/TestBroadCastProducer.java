@@ -11,6 +11,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 /**  BroadCastStream练习  使用广播实现配置动态更新
+ * 发送 需要处理的数据
  * @ClassName test0201
  * @Description
  * @Author wanghao

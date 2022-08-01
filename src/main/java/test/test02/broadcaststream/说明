@@ -1,7 +1,7 @@
 广播练习：
-    Test01        //广播
-    Test02        //广播下发配置
-
+    TestBroadCastConsumer              //接收广播 和数据并处理
+    TestBroadCastConfigProducer        //广播下发配置
+    TestBroadCastProducer              //创造数据
 
 广播配置
     https://www.jianshu.com/p/a09827b1d6da
