@@ -1,4 +1,4 @@
-package test.test02;
+package test.test02.a_simple;
 
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
@@ -6,26 +6,22 @@ import org.apache.kafka.clients.producer.ProducerRecord;
 import java.util.Properties;
 import java.util.Random;
 
-/**造 随机单词的数据  1000个 到test_word1
+/**造1-10的数据  1000个
  * @ClassName test02producer
- * @Description TODO kafka 到 kafka producer
+ * @Description TODO  producer word
  * @Author wanghao
  * @Date 2021/1/11 13:39
  * @Version 1.0
  */
-public class Test0202producer {
+public class Test02producer {
     public static void main(String[] args) {
-        //a-z：97-122，A-Z：65-90，0-9：48-57   ascii
         for(int i=0;i<=1000;i++){
             Random random=new Random();
-            char worditem1= (char) ((char)random.nextInt(122)%(122-97+1)+97);//a-z
-            char worditem2= (char) ((char)random.nextInt(122)%(122-97+1)+97);//a-z
-            char worditem3= (char) ((char)random.nextInt(122)%(122-97+1)+97);//a-z
-            char worditem4= (char) ((char)random.nextInt(122)%(122-97+1)+97);//a-z
-            String word_str=""+worditem1+worditem2+worditem3+worditem4;
-            Test0202producer test02producer= new Test0202producer();
-            test02producer.send(word_str);
-            System.out.println("已发送数据:"+word_str);
+           int intitem= random.nextInt(1000);
+            String numstr=String.valueOf(intitem%10);
+            Test02producer test02producer= new Test02producer();
+            test02producer.send(numstr);
+            System.out.println("已发送数据:"+numstr);
 
         }
     }
@@ -34,7 +30,7 @@ public class Test0202producer {
      * 发送消息配置
      * @param value
      */
-    void send(String value){
+    public void send(String value){
         Properties props = new Properties();
         props.put("bootstrap.servers", "127.0.0.1:9092");//xxx服务器ip
         props.put("acks", "all");//所有follower都响应了才认为消息提交成功，即"committed"
@@ -48,7 +44,7 @@ public class Test0202producer {
         props.put("value.serializer",
                 "org.apache.kafka.common.serialization.StringSerializer");
         final KafkaProducer<String, String> producer;
-        final  String TOPIC = "test_word1";
+        final  String TOPIC = "test1";
         producer = new KafkaProducer<String, String>(props);
         producer.send(new ProducerRecord<String, String>(TOPIC,value));
     }

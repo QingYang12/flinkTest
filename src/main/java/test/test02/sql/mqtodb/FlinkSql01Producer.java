@@ -1,4 +1,4 @@
-package test.test02.table.joindimensiontable;
+package test.test02.sql.mqtodb;
 
 import com.alibaba.fastjson.JSONObject;
 import org.apache.kafka.clients.producer.KafkaProducer;
@@ -14,7 +14,7 @@ import java.util.*;
  * @description: TODO
  * @date 2022/1/117:20 下午
  */
-public class FlinkSqlJoinDTableProducer {
+public class FlinkSql01Producer {
     static int index=0;
     public static void main(String[] args) {
         Timer t = new Timer();//创建1个定时器
@@ -29,7 +29,7 @@ public class FlinkSqlJoinDTableProducer {
                 int categoryid= random.nextInt(1000);
                 Date date=new Date();
                 SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH:mm:SS");
-                FlinkSqlJoinDTableProducer flinkSql01Producer = new FlinkSqlJoinDTableProducer();
+                FlinkSql01Producer flinkSql01Producer = new FlinkSql01Producer();
                 JSONObject userItem=new JSONObject();
                 userItem.put("user_id",String.valueOf(useritem));
                 userItem.put("item_id",String.valueOf(itemid));
@@ -68,7 +68,7 @@ public class FlinkSqlJoinDTableProducer {
         props.put("value.serializer",
                 "org.apache.kafka.common.serialization.StringSerializer");
         final KafkaProducer<String, String> producer;
-        final  String TOPIC = "flink-sql-kafka-dt";
+        final  String TOPIC = "flink-sql-kafka";
         producer = new KafkaProducer<String, String>(props);
         producer.send(new ProducerRecord<String, String>(TOPIC,value));
     }

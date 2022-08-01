@@ -1,4 +1,4 @@
-package test.test02.table.joindimensiontable;
+package test.test02.sql.joindimensiontable;
 import org.apache.flink.api.common.functions.FlatMapFunction;
 import org.apache.flink.api.common.typeinfo.Types;
 import org.apache.flink.api.java.tuple.Tuple2;

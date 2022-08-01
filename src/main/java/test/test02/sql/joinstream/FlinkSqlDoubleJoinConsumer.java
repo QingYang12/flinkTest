@@ -1,6 +1,7 @@
-package test.test02.table.joinstream;
+package test.test02.sql.joinstream;
 
-import com.mysql.cj.result.Row;
+
+import org.apache.calcite.interpreter.Row;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;

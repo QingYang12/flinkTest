@@ -1,0 +1,8 @@
+实时练习：Datastream
+    连接 kafka   mysql     两两互传
+    Test02consumer        //从消息队列读取统计单词个数   topic
+    Test02producer        //造1-10的数据  1000个
+    Test0201consumer      //从消息队列读取字段落进数据库  topic: db_kafka_topic 到 数据库 dbtest02
+    Test0201producer      //从数据库读取字段发送到topic  数据库 dbtest01 到 topic:db_kafka_topic
+    Test0202consumer      //从topic到topic
+    Test0202producer      //造 随机单词的数据  1000个 到test_word1

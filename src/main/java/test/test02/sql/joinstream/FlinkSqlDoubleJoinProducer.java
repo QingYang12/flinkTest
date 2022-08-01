@@ -1,4 +1,4 @@
-package test.test02.table.mqtodb;
+package test.test02.sql.joinstream;
 
 import com.alibaba.fastjson.JSONObject;
 import org.apache.kafka.clients.producer.KafkaProducer;
@@ -9,13 +9,15 @@ import java.util.*;
 
 /**
  * @author wanghao
- * @title: FlinkSql01Producer
+ * @title: FlinkSqlDoubleJoinProducer
  * @projectName flinkTest
  * @description: TODO
- * @date 2022/1/117:20 下午
+ * @date 2022/1/124:16 下午
  */
-public class FlinkSql01Producer {
+public class FlinkSqlDoubleJoinProducer {
+
     static int index=0;
+
     public static void main(String[] args) {
         Timer t = new Timer();//创建1个定时器
         t.schedule(new TimerTask() {
@@ -29,7 +31,7 @@ public class FlinkSql01Producer {
                 int categoryid= random.nextInt(1000);
                 Date date=new Date();
                 SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH:mm:SS");
-                FlinkSql01Producer flinkSql01Producer = new FlinkSql01Producer();
+                FlinkSqlDoubleJoinProducer flinkSqlDoubleJoinProducer = new FlinkSqlDoubleJoinProducer();
                 JSONObject userItem=new JSONObject();
                 userItem.put("user_id",String.valueOf(useritem));
                 userItem.put("item_id",String.valueOf(itemid));
@@ -37,7 +39,8 @@ public class FlinkSql01Producer {
                 userItem.put("behavior",String.valueOf(behavior));
                 userItem.put("ts",sdf.format(date));
                 String json =userItem.toJSONString();
-                flinkSql01Producer.send(json);
+                String topic="double-join-"+index%4;
+                flinkSqlDoubleJoinProducer.send(json,topic);
                 System.out.println("已发送数据:"+json);
                 if(index>=1000){//终止条件
                     t.cancel();
@@ -46,15 +49,13 @@ public class FlinkSql01Producer {
             }
         }, 0, 1000);//// 首次运行,延迟0毫秒,循环间隔1000毫秒
 
-
     }
-
 
     /**发送方法
      * 发送消息配置
      * @param value
      */
-    public void send(String value){
+    public void send(String value ,String topic){
         Properties props = new Properties();
         props.put("bootstrap.servers", "127.0.0.1:9092");//xxx服务器ip
         props.put("acks", "all");//所有follower都响应了才认为消息提交成功，即"committed"
@@ -68,8 +69,7 @@ public class FlinkSql01Producer {
         props.put("value.serializer",
                 "org.apache.kafka.common.serialization.StringSerializer");
         final KafkaProducer<String, String> producer;
-        final  String TOPIC = "flink-sql-kafka";
         producer = new KafkaProducer<String, String>(props);
-        producer.send(new ProducerRecord<String, String>(TOPIC,value));
+        producer.send(new ProducerRecord<String, String>(topic,value));
     }
 }

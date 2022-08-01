@@ -1,5 +1,6 @@
 实时练习：window
-    Test02consumer        //滚动窗口
-    Test02producer        //滑动窗口
-    Test0201consumer      //会话窗口 Session Windows
-    Test0201producer      //全局窗口 Global Windows
+    tumbling              //滚动窗口
+    sliding               //滑动窗口
+    session               //会话窗口 Session Windows
+    global                //全局窗口 Global Windows
+    custom                //自定义窗体练习
