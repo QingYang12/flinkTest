@@ -1,2 +1,7 @@
-实时监听binlog并放入ES：
+实时监听binlog并放入kafka：
+    CDCTest                //flink CDC 测试
+    SQLCDCTest             //flinkcdc  SQL 写法测试
+
+
+
 

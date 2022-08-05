@@ -58,11 +58,11 @@ public class TestkeyedStateDemo {
             }
             @Override
             public void open(Configuration parameters) throws Exception{
-//                StateTtlConfig ttlConfig = StateTtlConfig
-//                .newBuilder(Time.seconds(1))
-//                .setUpdateType(StateTtlConfig.UpdateType.OnCreateAndWrite)
-//                .setStateVisibility(StateTtlConfig.StateVisibility.NeverReturnExpired)
-//                .build();
+                StateTtlConfig ttlConfig = StateTtlConfig
+                .newBuilder(Time.seconds(1))
+                .setUpdateType(StateTtlConfig.UpdateType.OnCreateAndWrite)
+                .setStateVisibility(StateTtlConfig.StateVisibility.NeverReturnExpired)
+                .build();
 
                 /**
                  * 注意这里仅仅用了状态，但是没有利用状态来容错
@@ -72,7 +72,7 @@ public class TestkeyedStateDemo {
                                 "avgState",
                                 TypeInformation.of(new TypeHint<Tuple2<Long, Long>>() {})
                         );
-//        descriptor.enableTimeToLive(ttlConfig);
+        descriptor.enableTimeToLive(ttlConfig);
 
                 sum=getRuntimeContext().getState(descriptor);
 
